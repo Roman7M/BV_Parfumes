@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #A4CCD9;
+  text-align: center;
+}
+
+h1 {
+  margin: 30px 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.seasons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  grid-gap: 40px;
+  justify-content: center;
+}
+
+.season {
+  width: 280px;
+  height: 280px;
+  border: 2px solid #000;
+  box-shadow: 5px 9px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 33px;
+  background-size: cover;
+  background-position: center;
+}
+
+.winter {
+  background-image: url("images/winter.jpg");
+}
+
+.spring {
+  background-image: url("images/spring.jpg");
+}
+
+.summer {
+  background-image: url("images/summer.jpg");
+}
+
+.autumn {
+  background-image: url("images/autumn.jpg");
+}
+
+.mix {
+  background-image: url("images/mix.png");
+  grid-column: 2;
+}
+

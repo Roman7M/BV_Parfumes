@@ -5,6 +5,7 @@
       background-color: #A4CCD9;
       color: black;
       text-align: center;
+      scroll-behavior: smooth;
     }
 
     header {
@@ -28,9 +29,11 @@
       margin-top: 15px;
     }
 
-    nav button {
+    nav .btn {
       background-color: #EBFFD8;
-      border: none;
+      display: inline-block;
+      text-decoration: none;
+      color: black;
       padding: 10px 20px;
       margin: 0 10px;
       font-size: 16px;
@@ -54,9 +57,11 @@
     }
 
     .btn {
-      margin-top: 20px;
       background-color: #EBFFD8;
-      border: none;
+      margin-top: 20px;
+      display: inline-block;
+      text-decoration: none;
+      color: black;
       padding: 12px 25px;
       font-size: 16px;
       border-radius: 10px;
