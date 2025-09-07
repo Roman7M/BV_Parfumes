@@ -1,81 +1,76 @@
-header{
-position: absolute;
-width: 1440px;
-height: 472px;
-background-color: #8DBCC7;
-}
 
-body {
-    background-color: #A4CCD9;
-}
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #A4CCD9;
+      color: black;
+      text-align: center;
+    }
 
+    header {
+      background-color: #8DBCC7;
+      padding: 20px;
+    }
 
-/* From Uiverse.io by dpaulos6 */ 
-.c-button {
-  font-weight: 700;
-  font-size: 16px;
-  text-decoration: none;
-  padding: 0.9em 1.6em;
-  cursor: pointer;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  z-index: 1;
-}
+    header img {
+      width: 60px;
+      vertical-align: middle;
+    }
 
-.c-button--gooey {
-  color: #EBFFD8;
-  background-color: transparent;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  border: 4px solid #EBFFD8;
-  position: relative;
-  transition: all 700ms ease;
-  border-radius: 999px;
-}
+    header h1 {
+      display: inline-block;
+      margin: 0 15px;
+      font-size: 28px;
+      vertical-align: middle;
+    }
 
-.c-button--gooey .c-button__blobs {
-  height: 100%;
-  filter: url(#goo);
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: -3px;
-  right: -1px;
-  z-index: -1;
-  border-radius: 20px;
-}
+    nav {
+      margin-top: 15px;
+    }
 
-.c-button--gooey .c-button__blobs div {
-  background-color: #EBFFD8;
-  width: 34%;
-  height: 100%;
-  border-radius: 100%;
-  position: absolute;
-  transform: scale(1.4) translateY(125%) translateZ(0);
-  transition: all 700ms ease;
-}
+    nav button {
+      background-color: #EBFFD8;
+      border: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
 
-.c-button--gooey .c-button__blobs div:nth-child(1) {
-  left: -5%;
-}
+    main {
+      padding: 40px 20px;
+    }
 
-.c-button--gooey .c-button__blobs div:nth-child(2) {
-  left: 30%;
-  transition-delay: 60ms;
-}
+    main img {
+      width: 150px;
+      margin: 20px 0;
+    }
 
-.c-button--gooey .c-button__blobs div:nth-child(3) {
-  left: 66%;
-  transition-delay: 25ms;
-}
+    .main-text {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
 
-.c-button--gooey:hover {
-  color: #fff;
-}
+    .btn {
+      margin-top: 20px;
+      background-color: #EBFFD8;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
 
-.c-button--gooey:hover .c-button__blobs div {
-  transform: scale(1.4) translateY(0) translateZ(0);
+    footer {
+      background-color: #C4E1E6;
+      color: darkslategray;
+      padding: 20px;
+      margin-top: 40px;
+    }
 
-}
+    footer p {
+      margin: 8px 0;
+    }
+  
